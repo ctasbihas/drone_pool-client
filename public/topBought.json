@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "4K Camera",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiypoSmBjNWsrJ-IEzD0qsie_d2_jN8iUETA&usqp=CAU",
+        "description": "",
+        "price": "13$",
+        "available": 800,
+        "minimum": 50
+    },
+    {
+        "id": 2,
+        "name": "Drone Arm",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAQJXHr1fsUwFv-n__t_ibMWf_QSHT6_bsA&usqp=CAU",
+        "description": "",
+        "price": "13$",
+        "available": 800,
+        "minimum": 50
+    }
+]

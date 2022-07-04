@@ -9,25 +9,21 @@ const Navbar = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Portfolio</a></li>
                         <li><a>Login</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl">Drone Pool</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li><a>Home</a></li>
                     <li><a>Blogs</a></li>
                     <li><a>Portfolio</a></li>
+                    <li><a>Login</a></li>
                 </ul>
-                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                    <div class="w-10 rounded-full">
-                        <img src="https://placeimg.com/80/80/people" />
-                    </div>
-                </label>
             </div>
         </div>
     );
