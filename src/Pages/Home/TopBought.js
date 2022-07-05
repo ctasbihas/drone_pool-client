@@ -12,13 +12,14 @@ const TopBought = () => {
             {
                 products.map(product =>
                     <>
-                        <div className="card w-96 bg-base-100 shadow-xl image-full">
-                            <figure><img src={product.img} alt="Shoes" /></figure>
+                        <div className="card bg-base-100 shadow-xl">
+                            <figure><img className='h-40' src={product.img} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">Product: {product.name}</h2>
-                                <p>Description: {product.description}</p>
-                                <p>Available: {product.available} pieces</p>
-                                <p>Minimum order: {product.minimum} pieces</p>
+                                <p><span className='font-bold'>Description: </span>{product.description}</p>
+                                <p><span className='font-bold'>Price: </span>${product.price}</p>
+                                <p><span className='font-bold'>Available: </span>{product.available} pieces</p>
+                                <p><span className='font-bold'>Minimum order: </span>{product.minimum} pieces</p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btn-primary">Buy Now</button>
                                 </div>
