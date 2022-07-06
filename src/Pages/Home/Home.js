@@ -3,16 +3,16 @@ import Banner from './Banner';
 import CustomerReviews from './CustomerReviews';
 import Specifications from './Specifications';
 import SuccessSummery from './SuccessSummery';
-import TopBought from './TopBought';
+import Products from './Products';
 
 const Home = () => {
     return (
         <div>
-            <Banner/>
-            <TopBought />
+            <Banner />
+            <Products />
             <Specifications />
-            <SuccessSummery/>
-            <CustomerReviews/>
+            <SuccessSummery />
+            <CustomerReviews />
         </div>
     );
 };

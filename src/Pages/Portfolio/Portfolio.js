@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <div className='mx-10 mb-20'>
             <h1 className='text-3xl font-bold text-green-600 text-center mt-3'>My Portfolio</h1>
-            <div class="divider"></div>
+            <div className="divider"></div>
             <div>
                 <h2 className='text-2xl'>Name: CHOWDHURY TASBIH AHMED SIDDIQUE</h2>
                 <h2 className='text-2xl'>Email: tasbihhmd@gamil.com</h2>

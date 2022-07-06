@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
         <div>
             <h1 className='text-3xl ml-2 text-green-600'>Answers to the questions</h1>
-            <div class="divider"></div> 
+            <div className="divider"></div>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='border-emerald-400 border-4 rounded py-3 px-5 mx-2 my-3'>
                     <h2 className='text-2xl font-bold'>1. How will you improve the performance of a React Application?</h2>

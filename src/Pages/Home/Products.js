@@ -11,7 +11,7 @@ const TopBought = () => {
         <div className='grid grid-cols-3 gap-5 mx-3 mt-16'>
             {
                 products.map(product =>
-                    <>
+                    <div key={product._id}>
                         <div className="card bg-base-100 shadow-xl">
                             <figure><img className='h-40' src={product.img} alt="Shoes" /></figure>
                             <div className="card-body">
@@ -25,7 +25,7 @@ const TopBought = () => {
                                 </div>
                             </div>
                         </div>
-                    </>
+                    </div>
                 )
             }
         </div>
