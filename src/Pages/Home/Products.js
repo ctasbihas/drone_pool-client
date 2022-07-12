@@ -3,12 +3,14 @@ import React, { useEffect, useState } from 'react';
 const TopBought = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('topBought.json')
+        fetch('http://localhost:5000/product')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
     return (
-        <div className='grid grid-cols-3 gap-5 mx-3 mt-16'>
+        <div className="mt-16">
+            <h2 className='text-3xl text-center font-bold text-success'>Top Products</h2>
+        <div className='grid grid-cols-3 gap-5 mx-3 mt-3'>
             {
                 products.map(product =>
                     <div key={product._id}>
@@ -28,6 +30,7 @@ const TopBought = () => {
                     </div>
                 )
             }
+            </div>
         </div>
     );
 };
